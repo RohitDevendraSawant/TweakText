@@ -5,7 +5,7 @@ function Navbar(props) {
   const { isDark, changeTheme } = props;
   return (
     <>
-      <div className="flex justify-around p-2">
+      <div className="flex justify-around p-2 shadow-lg">
         <div>
           <h1 className="text-xl">TweakText</h1>
         </div>
